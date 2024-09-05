@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+  "
+  />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Puutarhaliike Neilikka Kotisivu</title>
+  </head>
+  <body>
+    <div class="container-style">
+      <nav class="topnav" id="myTopnav">
+        <a href="#etusivu" class="active">Etusivu</a>
+        <div class="dropdownmenu">
+          <a href="#tuotteet" class="dropbtn">Tuotteet</a>
+          <div class="dropdown-content">
+            <a href="http://localhost/pages/sisakasveja.html">Sisäkasvit</a>
+            <a href="http://localhost/pages/ulko.html">Ulkokasvit</a>
+            <a href="http://localhost/pages/työkalut.html">Työkalut</a>
+            <a href="http://localhost/pages/hoito.html">Kasvien hoito</a>
+          </div>
+        </div>
+        <a href="#myymälät">Myymälät</a>
+        <a href="#tietoameistä">Tietoa meistä</a>
+        <a href="#otayhteyttä">Ota yhteyttä</a>
+        <a class="registeration" href="http://localhost/form.html"
+          >Registeröityminen</a
+        >
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      <div class="grid-item grid-item-1" id="etusivu">
+        <h1 class="title">
+          Tervetuloa <strong>Puutarhaliike Neilikan</strong> kotisivuille!
+          Meiltä löydät sekä sisä- että ulkokasvit ja kaiken tarvitsemasi
+          kasvien hoitoon.
+        </h1>
+      </div>
+      <div class="grid-item grid-item-news"><h1>Uutisia</h1></div>
+      <div class="grid-item grid-item-news-1">
+        <h2>
+          <strong>2.1.2016 </strong>
+          <br />
+          Hyvää uutta vuotta! Uuden vuoden kunniaksi myymälöissämme upeita
+          tarjouksia.
+        </h2>
+      </div>
+      <div class="grid-item grid-item-news-2">
+        <h2>
+          <strong>14.12.2015 </strong> <br />Joulukukat edullisesti meiltä.
+          Myymälöissämme myös kattava ja edullinen valikoima joulukuusia.
+        </h2>
+      </div>
+      <div class="grid-item grid-item-news-3">
+        <h2>
+          <strong>1.9.2015 </strong> <br />Nyt on hyvä aika aloittaa puutarhan
+          valmistelu talven lepokautta varten. Meiltä löydät kaikki työkalut ja
+          tarvikkeet.
+        </h2>
+      </div>
+
+      <div class="grid-item grid-item-tuotteet" id="tuotteet">
+        <h1>Tuotteet</h1>
+      </div>
+      <div class="grid-item grid-item-tuotteet-1">
+        <h1>Tuotevalikoimaamme kuuluu <br /></h1>
+        <a href="http://localhost/pages/sisakasveja.html"
+          ><h2>- sisäkasveja</h2></a
+        >
+        <a href="http://localhost/pages/ulko.html"
+          ><h2>- ulkokasveja sekä</h2></a
+        >
+        <a href="http://localhost/pages/työkalut.html"
+          ><h2>- työkaluja ja muita tarvikkeita</h2></a
+        >
+        <a href="http://localhost/pages/hoito.html"
+          ><h2>- kasvien hoitoon</h2></a
+        >
+      </div>
+
+      <div class="grid-item grid-item-myymalat" id="myymälät">
+        <h1>Myymälät</h1>
+      </div>
+      <div class="grid-item grid-item-myymalat-1">
+        <div>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Puutarhaliike Neilikka,
+              Helsinki
+            </li>
+            <li>Fabianinkatu 42</li>
+            <li><i class="fab fa-font-awesome-flag"></i> 00100 Helsinki</li>
+            <li><i class="fas fa-mobile-alt"></i> Puh. xx-xxxxxxx</li>
+            <li>
+              <i class="fas fa-at"></i> Sähköposti:
+              helsinki@puutarhaliikeneilikka.fi
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="far fa-clock"></i> Avoinna</li>
+            <li>ma-ke 9-17</li>
+            <li>la 12-18</li>
+            <li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.0711658850385!2d24.946569316026163!3d60.16624098195286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc42874dc15%3A0x3b74b7ad5df1ac8d!2sFabianinkatu%2042%2C%2000100%20Helsinki%2C%20Finland!5e0!3m2!1sen!2sus!4v1693422822531!5m2!1sen!2sus"
+                width="350"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid-item grid-item-myymalat-1">
+        <div>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Puutarhaliike Neilikka,
+              Espoo
+            </li>
+            <li>Kivenlahdentie 10</li>
+            <li><i class="fab fa-font-awesome-flag"></i> 01234 Espoo</li>
+            <li><i class="fas fa-mobile-alt"></i> Puh. xx-xxxxxxx</li>
+            <li>
+              <i class="fas fa-at"></i> Sähköposti:
+              espoo@puutarhaliikeneilikka.fi
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="far fa-clock"></i> Avoinna</li>
+            <li>ma-ke 9-17</li>
+            <li>la 12-18</li>
+            <li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7881583663366!2d24.648687916087054!3d60.15865028194815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920f7d41f9a75d%3A0x6ad10f4d146c84df!2sKivenlahdentie%2010%2C%2002380%20Espoo%2C%20Finland!5e0!3m2!1sen!2sus!4v1693475682478!5m2!1sen!2sus"
+                width="350"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid-item grid-item-tietoameistä" id="tietoameistä">
+        <h1>Tietoa Meistä</h1>
+      </div>
+      <div class="grid-item grid-item-tietoameistä-content">
+        <p>
+          <strong>Puutarhaliike Neilikka</strong> on vuonna 1990 perustettu
+          puutarhanhoitoon ja huonekasveihin erikoistunut myymäläketju.
+          Ensimmäinen myymälämme perustettiin Helsingin Fabianinkadulle, ja
+          toukokuussa 1997 perustimme ketjun toisen myymälän Espooseen.
+        </p>
+        <p>
+          Meiltä löydät kattavan valikoiman sisä- ja ulkokasveja sekä tietysti
+          kaikki työkalut ja muut tarvikkeet niiden hoitoon. Osaava ja
+          puutarhanhoidosta innostunut henkilökuntamme on aina valmiina
+          auttamaan sinua valitsemaan juuri sinulle sopivimmat tuotteet.
+        </p>
+      </div>
+
+      <div class="grid-item grid-item-Otayhteyttä" id="otayhteyttä">
+        <h1>Ota Yhteyttä</h1>
+      </div>
+      <div class="grid-item grid-item-1">
+        <h1>Voit ottaa meihin yhteyttä</h1>
+
+        <h2>puhelimitse yksittäisiin myymälöihin</h2>
+        <h2>
+          <i class="fas fa-at"></i> sähköpostitse:
+          asiakaspalvelu@puutarhaliikeneilikka.fi
+        </h2>
+        <h2>alla olevalla lomakkeella</h2>
+      </div>
+      <div class="grid-item grid-item-contactus">
+        <div
+          class="row g-3 align-items-center mt-3 d-flex justify-content-center">
+          <div
+            class="col-md-12 d-flex justify-content-center align-items-center">
+            <form action="#" method="" class="row g-3 form-control">
+              <div class="input-group mb-3">
+                <span class="input-group-text !important">Nimi:</span>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  required
+                  minlength="3"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text !important">Sähköposti:</span>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  required
+                  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                  title="Please enter a valid email address."
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="subject">Aihe:</label>
+                <select id="subject" name="subject" class="form-select mb-3" required>
+                  <option value="kysymys">Kysymys tuotteista</option>
+                  <option value="tilaus">Tilaus</option>
+                  <option value="yhteydenottopyynto">Yhteydenottopyyntö</option>
+                  <option value="muu">Muu</option>
+                </select>
+              </div>
+
+              <div class="form-floating mb-3">
+                <textarea
+                id="floatingTextarea"
+                name="message"
+                required
+                cols="50"
+                rows="5"
+                class="form-control"
+                style="height: 100px"
+                pattern="[^<>]{5,}"
+                title="Input must be at least 5 characters long and cannot contain '<' or '>'."
+                ></textarea>
+                <label for="floatingTextarea">Viesti:</label>
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+
+                  <label for="newsletter" class="form-check-label"
+                  >Haluan tilata Puutarhaliike Neilikan uutiskirjeen</label
+                  >
+                  <input type="checkbox" name="newsletter" class="form-check-input" value="yes" />
+                </div>
+              </div>
+              <button type="submit">Lähetä</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <a href="#top" class="top"
+        ><i class="fas fa-arrow-up"></i><span>Back to Top</span></a
+      >
+      <footer class="grid-item grid-item-footer">
+        <p>
+          &copy <strong>| Puutarhaliike Neilikka</strong> 2024, Hossein
+          Farahkordmahaleh
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
